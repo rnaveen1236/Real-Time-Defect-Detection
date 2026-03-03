@@ -10,7 +10,7 @@ The system can:
 * Perform real-time detection using a live camera
 * Detect defects from input images
 
-This project follows a **minimal and clean architecture** with a single Python file (`src.py`) for simplicity and easy deployment.
+This project follows a **minimal and clean architecture** with a single Python file (`detection.py`) for simplicity and easy deployment.
 
 ---
 
@@ -36,7 +36,7 @@ real_time_defect_detection/
 │   ├── yolov8n.pt
 │   └── best.pt
 │
-├── src.py
+├── detection.py
 ├── requirements.txt
 └── README.md
 ```
@@ -128,7 +128,7 @@ pip install -r requirements.txt
 Run the main file:
 
 ```bash
-python src.py
+python detection.py
 ```
 
 You will see:
@@ -173,19 +173,6 @@ Detects defects from a given image path.
 * Metal sheet defect detection
 * PCB inspection
 * Industrial automation systems
-
----
-
-## 👨‍💻 Author
-
-**Naveen Kumar R**
-Computer Vision & Real-Time Automation Developer
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
 
 ---
 
